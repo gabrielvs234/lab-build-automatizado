@@ -1,4 +1,4 @@
-# app.py (alteração proposital para quebrar o teste de soma)
+# app.py
 def soma(a: float, b: float) -> float:
     """
     Soma dois números.
@@ -10,7 +10,7 @@ def soma(a: float, b: float) -> float:
     Returns:
         float: A soma de a e b.
     """
-    return a + b + 1 # ERRO PROPOSITAL AQUI!
+    return a + b
 
 def subtrai(a: float, b: float) -> float:
     """
